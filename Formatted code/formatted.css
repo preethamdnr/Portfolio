@@ -1,16 +1,4 @@
-/* 
-██╗░░░██╗██╗███╗░░██╗░█████╗░██████╗░
-██║░░░██║██║████╗░██║██╔══██╗██╔══██╗
-╚██╗░██╔╝██║██╔██╗██║██║░░██║██║░░██║
-░╚████╔╝░██║██║╚████║██║░░██║██║░░██║
-░░╚██╔╝░░██║██║░╚███║╚█████╔╝██████╔╝
-░░░╚═╝░░░╚═╝╚═╝░░╚══╝░╚════╝░╚═════╝░
-░░░░░██╗░█████╗░███╗░░██╗░██████╗░██╗██████╗░
-░░░░░██║██╔══██╗████╗░██║██╔════╝░██║██╔══██╗
-░░░░░██║███████║██╔██╗██║██║░░██╗░██║██║░░██║
-██╗░░██║██╔══██║██║╚████║██║░░╚██╗██║██║░░██║
-╚█████╔╝██║░░██║██║░╚███║╚██████╔╝██║██████╔╝
-░╚════╝░╚═╝░░╚═╝╚═╝░░╚══╝░╚═════╝░╚═╝╚═════╝░ */
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -523,6 +511,8 @@ noscript{
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    padding-top: 500rem;
+    margin-top: 500rem;
 }
 .text-content{
     display: flex;
@@ -534,8 +524,8 @@ noscript{
     /* padding-left: 300px; */
 }
 #hello-friend{
-    font-size: 3.5rem;
-    font-weight: 600;
+    font-size: 1.0rem;
+    font-weight: 500;
     width:fit-content;
     display: flex;
     align-items: flex-end;
@@ -1823,6 +1813,7 @@ transition-duration: 1s;
     .text-content{
         padding-left: 0px;
         width:80%;
+
     }
     #hello-friend{
         height: 100px;
