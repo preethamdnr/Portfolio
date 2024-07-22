@@ -7,6 +7,8 @@
 
 ✔️ Mini intro\
 ✔️ About me \
+education
+work experince
 ✔️ Skills\
 ✔️ Projects\
 ✔️ Contact me
